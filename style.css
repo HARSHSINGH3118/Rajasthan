@@ -1,0 +1,649 @@
+
+.home_page{
+  display: flex;   
+}
+
+.navbar{
+display: flex;
+float: right;
+margin-top: 10px;
+font-family: 'Poppins', sans-serif;
+} 
+
+.nav_left {
+    display: flex;
+    padding-right: 200px;
+    gap: 25px;
+    font-size: 19px;
+}
+
+.nav_left a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.nav_right{
+    /* padding-right: 60px; */
+}
+
+.home{
+    color:#FF8C00;
+    font-weight: bold;
+}
+
+.hawa img{
+     border-top-right-radius: 140%;
+     border-bottom-right-radius: 150%;
+     border-bottom-left-radius: 150%;
+     width: 600px;
+     height: 600px;
+}
+
+.ind{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    color:#FF8C00;
+}
+
+.raj{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 70px;
+}
+
+.life{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(142, 142, 142);
+    font-size: 30px;
+}
+
+.main_text{
+    padding-top: 250px;
+    padding-left: 120px;
+}
+
+.home_left{
+    display: flex;
+}
+
+ .play {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 70px;
+     position: relative;
+     right: 30px;
+     top: 40px;
+ }
+
+
+
+
+  /* ---------------*******page-2*******------------------ */
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+
+  .header_left{
+    padding-left: 60px;
+  }
+
+  .want{
+    color: #FF8C00;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .popular{
+   color: black;
+   font-family: 'Poppins', sans-serif;
+   font-size: 60px;
+   font-weight: bold;
+
+  }
+
+  .header_right{
+    display: flex;
+    font-size: 60px;
+    gap: 20px;
+  }
+
+  .main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+  }
+  
+  .historical_pic img{
+    height: 350px;
+    width: 370px;
+    border-radius: 0.5rem;
+  }
+
+  .famous_pic img{
+   height: 350px;
+    width: 370px;
+    border-radius: 0.5rem;
+  } 
+
+  .wildlife_pic img{
+    height: 350px;
+    width: 370px;
+    border-radius: 0.5rem;
+  }
+
+  .text_1{
+    background-color: #FF8C00;
+    height: 100px;
+    width: 400px;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    right: 15px;
+    bottom: 25px;
+    box-shadow: 0 15px 40px 0 black;
+  }
+
+  .text_2{
+    background-color: #FF8C00;
+    height: 100px;
+    width: 400px;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    right: 15px;
+    bottom: 25px;
+    box-shadow: 0 15px 40px 0 black;
+  }
+
+  .text_3{
+    background-color: #FF8C00;
+    height: 100px;
+    width: 400px;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    right: 15px;
+    bottom: 25px;
+    box-shadow: 0 15px 40px 0 black;
+  }
+
+  .historical_text{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .his_text{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .famous_text{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .fam_text{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .wildlife_text{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .wd_text{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+
+  /* -------------page_3 start here-------------- */
+    .main_page_3{
+      background-color: #ffebc2e2;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+  .fort_img img{
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 480%;
+    border-top-right-radius: 600%;
+     border-bottom-right-radius: 600%;
+     width: 500px;
+     height: 500px;
+  }
+
+  .detail{
+    padding-right: 100px;
+  }
+
+  .detail_about{
+    color:#FF8C00;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.travel_detail{
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+
+.lorem{
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  color: #d0417e;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.explore_now {
+   margin-top: 30px;
+   font-weight: bold;
+   border-radius: 1.5rem;
+   color: white;
+   border:none;
+  font-size: 25px;
+  background-color: #FF8C00;
+}
+
+.explore_now a {
+  text-decoration: none;
+  color: white;
+}
+
+.border:hover{
+  border: 3px solid rgb(131, 70, 53);
+}
+
+
+/* ------------*****page_4 start here*****----------- */
+
+.header_4{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.header_right_4{
+  display: flex;
+  font-size: 60px;
+    gap: 20px;
+  
+}
+
+.where{
+  color:#FF8C00;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.trending{
+  color: black;
+   font-family: 'Poppins', sans-serif;
+   font-size: 60px;
+   font-weight: bold;
+}
+
+.main_4{
+  padding-top: 50px;
+  justify-content: space-evenly;
+  display: flex;
+  gap: 100px;
+}
+
+.udaipur_pic img{
+  height: 350px;
+  width: 370px;
+  border-radius: 0.5rem;
+}
+
+.jaipur_pic img{
+  height: 350px;
+  width: 370px;
+  border-radius: 0.5rem;
+}
+
+.jodhpur_pic img{
+  height: 350px;
+  width: 370px;
+  border-radius: 0.5rem;
+}
+
+.text_p4_1{
+   background-color: #FF8C00;
+    height: 100px;
+    width: 400px;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    right: 15px;
+    bottom: 25px;
+    box-shadow: 0 15px 40px 0 black;
+}
+
+.text_p4_2{
+  background-color: #FF8C00;
+  height: 100px;
+  width: 400px;
+  color: white;
+  border-radius: 0.5rem;
+  position: relative;
+  right: 15px;
+  bottom: 25px;
+  box-shadow: 0 15px 40px 0 black;
+}
+
+.text_p4_3{
+  background-color: #FF8C00;
+  height: 100px;
+  width: 400px;
+  color: white;
+  border-radius: 0.5rem;
+  position: relative;
+  right: 15px;
+  bottom: 25px;
+  box-shadow: 0 15px 40px 0 black;
+}
+
+.udaipur_text{
+  padding-left: 50px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.jaipur_text{
+  padding-left: 50px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.jodhpur_text {
+  padding-left: 50px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+/* ------***page_5 start here***----- */
+
+ .page_5 img{
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+ }
+
+ 
+
+ .wave01{
+  
+  margin-bottom: 300px;
+ }
+
+
+ /* ****-----page_6-----******** */
+
+ .main_6{
+  background-color: #ffebc2e2;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      
+ }
+
+ .owner img{
+  border-top-left-radius: 600%;
+    border-bottom-left-radius: 600%;
+    border-top-right-radius: 600%;
+     border-bottom-right-radius: 600%;
+     width: 500px;
+     height: 500px;
+     
+ }
+
+ .page_right_6{
+  padding-right: 100px;
+  padding-top: 30px;
+ }
+
+ .see{
+  color:#FF8C00;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Crete Round', serif;
+ }
+
+ .choose{
+  font-family: 'Lora', serif;
+  font-size: 50px;
+ }
+
+ .rajput{
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  color: #2a2c92;
+  font-weight: bold;
+  padding-top: 30px;
+ }
+
+ .padharo{
+  padding-top: 20px;
+  font-size: 30px;
+  color: #2a2c92;
+  font-weight: bold;
+ }
+
+ .tagline{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: large;
+  color:black;
+ }
+
+ .now{
+  margin-top: 30px;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  color: white;
+  border:none;
+ font-size: 25px;
+ background-color: #FF8C00;
+ }
+
+ .now a{
+  text-decoration: none;
+  color:white;
+ }
+
+   .footer{
+    background-color: black;
+    padding-top: 10px;
+     }
+
+   .footer_main{
+    padding-top: -30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .travelset{
+    color: #FF8C00;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+
+
+   }
+
+   .harsh{
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding-top: 30px;
+    }
+
+    .home_ft{
+      color: #FF8C00;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .abt a{
+      text-decoration: none;
+      color: white;
+      padding-top: 10px;
+       
+    }
+    
+    .abt{
+      padding-top: 20px;
+      font-size: large;
+    }
+
+    .dest{
+      color: white;
+      padding-top: 10px;
+      font-size: larger;
+      padding-top: 20px;
+    }
+
+    .cont a{
+      text-decoration: none;
+      color: white;
+    }
+
+    .cont{
+      padding-top: 10px;
+      padding-top: 20px;
+      font-size: large;
+    }
+
+    .follow{
+      color: #FF8C00;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .insta img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .mail img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .face img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .git img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .twitter img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .follow{
+      padding-right: 50px;
+    }
+
+    .social {
+      display: flex;
+      padding-top: 30px;
+      padding-right: 50px;
+      gap: 20px;
+    }
+
+    
+
+    .details_ft{
+      padding-top: 20px;
+      padding-left: 50px;
+    }
+
+    .rajth{
+      color: white;
+    padding-top: 30px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .pitaji{
+      color: rgb(227, 66, 66);
+    padding-top: 30px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    }
+
+    .details_ft{
+      padding-top: 20px;
+    }
+
+    .footer_right{
+      padding-right: 50px;
+    }
+
+    .line_ft{
+      color: gray;
+    }
+
+    .footer_down{
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+       align-items: center;
+       padding-bottom: 10px;
+    }
+
+    .travel{
+      color: #FF8C00;
+      font-family: 'Poppins', sans-serif ;
+    }
+
+    .copy{
+      color: white;
+      font-family: 'Poppins', sans-serif ;
+    }
+
+    .wave{
+     
+      background-color: rgba(221, 160, 221, 0.393);
+      color: #000;
+      position: relative;
+      top: 10px;
+      
+    }
+
+    
+    
+
+    
